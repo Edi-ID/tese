@@ -10,7 +10,7 @@ jobs:
 
       - name: Extract zip ke root repo
         run: |
-          ZIP="cocote-pannel-1.0.30.zip"
+          ZIP="Yt.zip"
           mkdir _tmp
           unzip -o "$ZIP" -d _tmp
           # kalau isi zip dibungkus 1 folder, isinya dinaikkan ke root
